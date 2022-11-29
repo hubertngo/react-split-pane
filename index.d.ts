@@ -65,6 +65,7 @@ export type PaneProps = {
   split?: Split;
   style?: React.CSSProperties;
   eleRef?: (el: HTMLDivElement) => void;
+  children?: React.ReactNode;
 };
 
 declare class Pane extends React.PureComponent<PaneProps> {}
